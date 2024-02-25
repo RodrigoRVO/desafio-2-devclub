@@ -1,0 +1,192 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+.menu {
+    display: block;
+    margin: 38px 0 0 76px;
+}
+
+.button-menu {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-right: 23px;
+    color: #989D9C;
+    cursor: pointer;
+}
+
+.button-menu:hover {
+    opacity: 0.5;
+}
+
+.button-menu:active {
+    opacity: 0.8;
+}
+
+.log-in {
+    width: 130px;
+    height: 41px;
+    border-radius: 50px;
+    border: none;
+    color: #ffffff;
+    background-color: #665AE1;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    cursor: pointer;
+}
+
+.log-in:hover {
+    opacity: 0.8;
+}
+
+.log-in:active {
+    opacity: 0.4;
+}
+
+
+
+.caixa-imagem {
+    display: inline-block;
+}
+
+
+.wecare-logo {
+    width: 568px;
+    height: 500px;
+    margin: 144px 86px 0 125px;
+}
+
+.caixa-texto {
+    display: inline-block;
+    position: relative;
+    bottom: 85px;
+    left: 45px;
+}
+
+
+h1 {
+    width: 513px;
+    height: 122px;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    width: 448px;
+    height: 71px;
+    font-weight: 500;
+    font-size: 58px;
+    color: #515151;
+}
+
+p {
+    width: 515px;
+    height: 87px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color:#515151;
+    opacity: 0.8;
+    margin: 32px 0 65px 0;
+}
+
+.explore {
+    width: 239px;
+    height: 64px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    border-radius: 50px;
+    background-color: #ADFF00;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.explore:hover {
+    color: #FFFFFF;
+    background-color: #515151;
+}
+
+.explore:active {
+    opacity: 0.4;
+}
+    
+
+
+@media screen and (max-width:900px) {
+
+    .menu {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+    .wecare-logo {
+        width: 80%;
+        height: auto;
+        position: relative;
+        left: -95px;
+    }
+
+    h1 {
+       width: 500px;
+       height: 52px;
+       font-weight: 900;
+       font-size: 50px; 
+       line-height: 60px;
+       text-align: center;
+       position: relative;
+       left: -108px;
+       top: 125px;
+    }
+
+    h2 {
+       font-size: 35px;
+       line-height: 36px;
+       text-align: center;
+       position: relative;
+       top: 135px;
+       left: -82px;
+    }
+
+    .caixa-texto {
+      width: 90%;
+      text-align: center;
+    }
+   
+    .explore {
+        position: relative;
+        top: 140px;
+        left: -34px;
+    }  
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
