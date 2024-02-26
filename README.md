@@ -8,4 +8,4 @@ fui fazer sozinho a adaptação do desafio 1 que vocês podem estar conferindo a
 
 <br>
 
-<img src="https://github.com/RodrigoRVO/desafio-1-devclub/blob/main/foto-responsiva.png?raw=true"/>
+<img src="https://github.com/RodrigoRVO/desafio-2-devclub/blob/master/foto-responsiva.png?raw=true"/>
